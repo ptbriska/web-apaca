@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
+
+@tailwindcss base;
+@tailwindcss components;
+@tailwindcss utilities;
+
+:root {
+  /* Variabel Gradasi Warna Merah Pekat ke Merah Cerah */
+  --grad-red-dark: #7F1D1D;
+  --grad-red-primary: #DC2626;
+  --grad-red-bright: #EF4444;
+  
+  --foreground-rgb: 15, 23, 42;
+  --background-rgb: 255, 255, 255;
+}
+
+/* Base Body Styling */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: rgb(var(--background-rgb));
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  overflow-x: hidden;
+}
+
+/* Custom CSS Utility Classes untuk Gradasi Merah APACA */
+.bg-apaca-gradient {
+  background: linear-gradient(135deg, #7F1D1D 0%, #DC2626 50%, #EF4444 100%);
+}
+
+.bg-apaca-gradient-hover:hover {
+  background: linear-gradient(135deg, #991B1B 0%, #B91C1C 50%, #DC2626 100%);
+}
+
+.text-apaca-gradient {
+  background: linear-gradient(135deg, #7F1D1D 0%, #EF4444 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
