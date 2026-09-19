@@ -1,42 +1,105 @@
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&display=swap');
 
-@tailwindcss base;
-@tailwindcss components;
-@tailwindcss utilities;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
-  /* Variabel Gradasi Warna Merah Pekat ke Merah Cerah */
-  --grad-red-dark: #7F1D1D;
-  --grad-red-primary: #DC2626;
-  --grad-red-bright: #EF4444;
-  
-  --foreground-rgb: 15, 23, 42;
-  --background-rgb: 255, 255, 255;
+  --bg-dark: #0b0f19;
+  --bg-card: #0f172a;
+  --text-main: #f8fafc;
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
 }
 
-/* Base Body Styling */
 html {
   scroll-behavior: smooth;
+  background-color: #0b0f19;
+  color: #f8fafc;
 }
 
+/* KUNCI BODY AGAR TIDAK BISA BERUBAH TERANG */
 body {
-  color: rgb(var(--foreground-rgb));
-  background: rgb(var(--background-rgb));
-  font-family: 'Plus Jakarta Sans', sans-serif;
+  background-color: #0b0f19 !important;
+  color: #f8fafc !important;
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
   overflow-x: hidden;
+  min-height: 100vh;
 }
 
-/* Custom CSS Utility Classes untuk Gradasi Merah APACA */
-.bg-apaca-gradient {
-  background: linear-gradient(135deg, #7F1D1D 0%, #DC2626 50%, #EF4444 100%);
+/* FIX WARNA TEKS UNTUK FORM/INPUT AGAR TIDAK MATI WARNA */
+input, select, textarea {
+  color: #0f172a;
 }
 
-.bg-apaca-gradient-hover:hover {
-  background: linear-gradient(135deg, #991B1B 0%, #B91C1C 50%, #DC2626 100%);
+/* ==========================================================================
+   EFEK VISUAL MODERN & ANIMASI CUSTOM APACA
+   ========================================================================== */
+
+/* 1. ANIMASI BACKGROUND GRADIENT BERGERAK */
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
 }
 
-.text-apaca-gradient {
-  background: linear-gradient(135deg, #7F1D1D 0%, #EF4444 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+.bg-animated-hero {
+  background: linear-gradient(-45deg, #0f172a, #1e1b4b, #2e1065, #090d16);
+  background-size: 400% 400%;
+  animation: gradientShift 12s ease infinite;
+}
+
+/* 2. EFEK SWEEP KILATAN LIGHT PADA TOMBOL & KARTU */
+@keyframes sweepLight {
+  0% { left: -120%; }
+  30% { left: 180%; }
+  100% { left: 180%; }
+}
+
+.btn-sweep {
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-sweep::after {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -120%;
+  width: 60%;
+  height: 200%;
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.4) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  transform: rotate(25deg);
+  animation: sweepLight 4s infinite ease-in-out;
+  pointer-events: none;
+}
+
+/* 3. GLASSMORPHISM (KARTU KACA PEKAT + GLOW KONTRAS TINGGI) */
+.glass-card {
+  background: rgba(15, 23, 42, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease;
+}
+
+.glass-card:hover {
+  border-color: rgba(234, 179, 8, 0.4);
+  transform: translateY(-4px);
+  box-shadow: 0 20px 40px rgba(234, 179, 8, 0.15);
+}
+
+/* 4. AMBIENT GLOWING BLOBS BERGERAK */
+@keyframes floatBlob {
+  0%, 100% { transform: translate(0px, 0px) scale(1); }
+  50% { transform: translate(30px, -40px) scale(1.1); }
+}
+
+.animate-blob {
+  animation: floatBlob 8s ease-in-out infinite;
 }
