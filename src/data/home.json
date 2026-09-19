@@ -1,0 +1,67 @@
+{
+  "hero": {
+    "title": "Peta Akurat untuk Potensi, Karir, dan Ekosistem Sekolah Anda.",
+    "subtitle": "Pusat Asesmen, Profiling, Sertifikasi, dan Konsultasi Pendidikan Terintegrasi. Mengubah data potensi menjadi bukti dan aksi nyata.",
+    "ctaPrimary": "Eksplorasi Paket Kami",
+    "ctaSecondary": "Login Portal PATS",
+    "patsUrl": "https://pats.apacaconsulting.com"
+  },
+  "journey": {
+    "title": "The APACA Journey",
+    "subtitle": "Alur layanan terintegrasi dari pemetaan awal hingga validasi kompetensi resmi.",
+    "steps": [
+      {
+        "step": "01",
+        "title": "Assessment & Profiling",
+        "desc": "Tes diagnostik awal dan pemetaan potensi/bakat melalui platform PATS atau tes klinis langsung.",
+        "icon": "search"
+      },
+      {
+        "step": "02",
+        "title": "Advocacy",
+        "desc": "Sesi konsultasi & coaching bersama psikolog (ber-SIPP) dan konsultan untuk membedah hasil tes.",
+        "icon": "users"
+      },
+      {
+        "step": "03",
+        "title": "Certification",
+        "desc": "Uji kompetensi & sertifikasi resmi yang diakui secara nasional di bawah naungan HIMPSI dan BNSP.",
+        "icon": "award"
+      }
+    ]
+  },
+  "credibility": {
+    "title": "Kredibilitas & Otoritas",
+    "subtitle": "Kepercayaan yang dibangun atas standar etika profesional dan kemitraan resmi.",
+    "stats": [
+      { "label": "Peserta Tes", "value": "10.000+" },
+      { "label": "Siswa & Klien B2C", "value": "5.000+" },
+      { "label": "Mitra Sekolah & Yayasan", "value": "50+" },
+      { "label": "Psikolog & Asesor Berlisensi", "value": "15+" }
+    ],
+    "partners": [
+      { "name": "HIMPSI", "logo": "/images/partners/himpsi.png" },
+      { "name": "BNSP", "logo": "/images/partners/bnsp.png" }
+    ]
+  },
+  "testimonials": [
+    {
+      "id": "1",
+      "name": "Bapak Rahmad, M.Pd.",
+      "role": "Kepala Sekolah SMA / Mitra B2B",
+      "quote": "Pemetaan ekosistem sekolah dari APACA memberikan data obyektif untuk evaluasi kurikulum dan pengembangan guru kami."
+    },
+    {
+      "id": "2",
+      "name": "Ibu Sarah",
+      "role": "Orang Tua Siswa",
+      "quote": "Sesi Advocacy dan konsultasi psikolognya sangat membantu kami memahami minat dan jurusan kuliah yang tepat untuk anak."
+    },
+    {
+      "id": "3",
+      "name": "Andi Pratama",
+      "role": "Fresh Graduate",
+      "quote": "Sertifikasi dan pemetaan karir APACA memberi landasan bukti kuat saat saya melamar pekerjaan profesional."
+    }
+  ]
+}
