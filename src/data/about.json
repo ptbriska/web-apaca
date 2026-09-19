@@ -1,0 +1,92 @@
+{
+  "profil": {
+    "title": "Konsultan Pendidikan & Psikologi Berbasis Data",
+    "desc": "APACA Consulting adalah lembaga konsultan pendidikan dan psikologi berbasis data (data-driven). Kami menyediakan ekosistem layanan terpadu—mulai dari pemetaan potensi, pendampingan/konsultasi, hingga sertifikasi resmi—untuk siswa, orang tua, dan institusi sekolah."
+  },
+  "filosofi": {
+    "title": "Filosofi A-P-A-C-A",
+    "subtitle": "Nama APACA merepresentasikan lima pilar layanan terintegrasi untuk solusi menyeluruh.",
+    "items": [
+      {
+        "letter": "A",
+        "word": "Assessment",
+        "desc": "Pengukuran diagnostik awal berbasis sistem PATS untuk gambaran presisi."
+      },
+      {
+        "letter": "P",
+        "word": "Profiling",
+        "desc": "Pemetaan menyeluruh atas karakter, minat, bakat, dan potensi individu."
+      },
+      {
+        "letter": "A",
+        "word": "Audit (for School)",
+        "desc": "Pemetaan dan evaluasi kualitas ekosistem sekolah (Layanan Coming Soon)."
+      },
+      {
+        "letter": "C",
+        "word": "Certification",
+        "desc": "Fasilitasi tes psikologi resmi (HIMPSI) dan sertifikasi kompetensi (BNSP)."
+      },
+      {
+        "letter": "A",
+        "word": "Advocacy",
+        "desc": "Pendampingan, konseling, dan konsultasi aksi berdasarkan data tes."
+      }
+    ]
+  },
+  "journey": {
+    "title": "Konsep APACA Journey",
+    "subtitle": "Alur tiga tahap yang memastikan klien tidak sekadar menerima angka/laporan, tetapi mendapatkan solusi menyeluruh.",
+    "steps": [
+      {
+        "step": "Langkah 1",
+        "action": "KENALI",
+        "title": "Assessment & Profiling (PATS)",
+        "desc": "Siswa mengerjakan tes diagnostik/pemetaan melalui platform PATS untuk memetakan gambaran awal potensi, karakter, dan minat bakat."
+      },
+      {
+        "step": "Langkah 2",
+        "action": "PAHAMI",
+        "title": "Advocacy (Konsultasi)",
+        "desc": "Rapor hasil PATS dibedah bersama konsultan/psikolog APACA melalui sesi 1-on-1 untuk menyusun action plan (studi, karir, atau tumbuh kembang)."
+      },
+      {
+        "step": "Langkah 3",
+        "action": "BUKTIKAN",
+        "title": "Certification (HIMPSI / BNSP)",
+        "desc": "Saat membutuhkan legalitas formal (administrasi sekolah/kampus/dunia kerja), klien diarahkan mengambil tes psikologi resmi berlisensi HIMPSI atau uji kompetensi BNSP."
+      }
+    ]
+  },
+  "usp": {
+    "title": "Unique Selling Proposition (USP)",
+    "subtitle": "Mengapa Klien dan Sekolah Memilih APACA Consulting?",
+    "items": [
+      {
+        "title": "Platform PATS (Psychometric & Aptitude Test System)",
+        "desc": "Sistem tes mandiri yang dirancang presisi, cepat, dan memberikan laporan komprehensif yang mudah dipahami."
+      },
+      {
+        "title": "Bukan Sekadar Tes (Data + Advocacy)",
+        "desc": "Kami tidak melepas klien hanya dengan selembar kertas hasil tes. Setiap data dibedah menjadi panduan aksi nyata."
+      },
+      {
+        "title": "Jalur Terintegrasi (Latihan ke Resmi)",
+        "desc": "Memudahkan klien melakukan tes diagnostik awal (PATS) sebelum mengambil tes resmi yang berbiaya lebih tinggi (HIMPSI/BNSP)."
+      },
+      {
+        "title": "Solusi Ekosistem Pendidikan",
+        "desc": "Layanan tidak hanya untuk siswa, tapi juga menjangkau interaksi guru, pola asuh orang tua, dan manajemen sekolah."
+      }
+    ]
+  },
+  "visiMisi": {
+    "visi": "Menjadi mitra strategis utama dalam mentransformasi potensi individu dan ekosistem pendidikan Indonesia melalui pendekatan data presisi dan pendampingan berkelanjutan.",
+    "misi": [
+      "Aksesibilitas: Menyediakan asesmen pemetaan yang cepat, terjangkau, dan akurat melalui platform PATS.",
+      "Dampak Nyata: Memastikan setiap hasil tes ditindaklanjuti dengan konsultasi (advocacy) yang solutif.",
+      "Akurasi & Legalitas: Menjangkau kebutuhan validasi formal melalui tes psikologi resmi (HIMPSI) dan sertifikasi BNSP.",
+      "Pengembangan Ekosistem: Membantu sekolah meningkatkan kualitas SDM guru, siswa, dan pola asuh orang tua."
+    ]
+  }
+}
