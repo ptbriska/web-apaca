@@ -3,6 +3,7 @@
 import React, { useState } from 'react';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
+import LeadMagnetPopup from '@/components/shared/LeadMagnetPopup';
 import { allArticles } from '@/data/articles';
 
 export default function DetailArtikelBerita({ params }: { params: { slug: string } }) {
@@ -242,6 +243,9 @@ export default function DetailArtikelBerita({ params }: { params: { slug: string
       </main>
 
       <Footer />
+
+      {/* POPUP PROMO OTOMATIS */}
+      <LeadMagnetPopup />
     </div>
   );
 }
