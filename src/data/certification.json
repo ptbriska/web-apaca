@@ -1,0 +1,54 @@
+{
+  "himpsi": {
+    "title": "Tes Psikologi Resmi (HIMPSI)",
+    "subtitle": "Layanan tes psikologi berlisensi resmi dari Himpunan Psikologi Indonesia (HIMPSI) untuk administrasi formal sekolah, kedinasan, penjurusan, maupun keperluan klinis/hukum.",
+    "output": "Laporan Resmi Psikogram + Tanda Tangan & Cap SIPP Psikolog Berlisensi",
+    "feeNote": "Catatan Biaya Tambahan: Terdapat penambahan biaya supervisi SIPP & administrasi lisensi resmi HIMPSI sebesar Rp100.000 – Rp250.000 / peserta dari tarif dasar asesmen.",
+    "items": [
+      {
+        "kode": "CRT-1A",
+        "nama": "Tes Psikologi Lengkap (Penjurusan & Administrasi Sekolah)",
+        "hargaEstimasi": "Rp350.000 – Rp500.000 / siswa",
+        "detailHarga": "Tarif Dasar Rp250.000 + Biaya Supervisi & Lisensi SIPP HIMPSI Rp100.000 – Rp150.000",
+        "deskripsi": "Diperuntukkan bagi siswa yang membutuhkan Psikogram Resmi bertanda tangan Psikolog untuk syarat masuk sekolah unggulan, penjurusan SMA, atau perguruan tinggi.",
+        "output": "Psikogram Resmi Berlisensi HIMPSI"
+      },
+      {
+        "kode": "CRT-1B",
+        "nama": "Tes Psikologi Klinis & Diagnostik Kedinasan / Instansi",
+        "hargaEstimasi": "Rp500.000 – Rp750.000 / peserta",
+        "detailHarga": "Tarif Dasar Rp300.000 - Rp500.000 + Biaya Supervisi SIPP & Administrasi Surat Resmi HIMPSI Rp200.000 – Rp250.000",
+        "deskripsi": "Tes kesehatan mental dan profil kepribadian mendalam untuk persyaratan administrasi kerja, tes kedinasan, atau kebutuhan legal/hukum.",
+        "output": "Surat Keterangan Hasil Pemeriksaan Psikologis (SKHPP) Resmi"
+      }
+    ]
+  },
+  "bnsp": {
+    "title": "Sertifikasi Kompetensi BNSP",
+    "subtitle": "Program uji kompetensi berstandar nasional dari Badan Nasional Sertifikasi Profesi (BNSP) untuk memvalidasi keahlian praktisi, tenaga pendidik, dan mahasiswa.",
+    "standarPemerintahNote": "Tarif mengikuti Standar PNBP & Skema Sertifikasi Resmi BNSP melalui Lembaga Sertifikasi Profesi (LSP) terlisensi.",
+    "items": [
+      {
+        "kode": "CRT-2A",
+        "skema": "Skema Metodologi Pelatihan / Instruktur Guru",
+        "hargaStandarBNSP": "Rp1.200.000 – Rp1.800.000 / peserta",
+        "deskripsi": "Validasi kompetensi guru/pendidik dalam merancang materi pembelajaran, teknik mengajar, dan evaluasi berbasis BNSP.",
+        "output": "Sertifikat Kompetensi BNSP (Logo Garuda Emas) - Skema Instruktur"
+      },
+      {
+        "kode": "CRT-2B",
+        "skema": "Skema Pendamping / Konsultan Karir & Edukasi",
+        "hargaStandarBNSP": "Rp1.500.000 – Rp2.200.000 / peserta",
+        "deskripsi": "Sertifikasi resmi bagi konsultan dan konselor pendidikan dalam memberikan layanan bimbingan karir dan pengembangan talenta.",
+        "output": "Sertifikat Kompetensi BNSP - Skema Konsultan/Fasilitator"
+      },
+      {
+        "kode": "CRT-2C",
+        "skema": "Skema Soft Skills & Workplace Literacy",
+        "hargaStandarBNSP": "Rp850.000 – Rp1.250.000 / peserta",
+        "deskripsi": "Uji kompetensi kemampuan komunikasi, kepemimpinan, dan kerja sama tim untuk mempersiapkan lulusan SMK/Kampus masuk dunia kerja.",
+        "output": "Sertifikat Kompetensi BNSP - Skema Soft Skills & Workplace Literacy"
+      }
+    ]
+  }
+}
