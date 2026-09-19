@@ -1,0 +1,47 @@
+[
+  {
+    "kode": "ADV-1",
+    "nama": "Bedah Rapor PATS (1-on-1)",
+    "fokus": "Analisis umum untuk seluruh hasil asesmen dari 5 Kategori Tes PATS.",
+    "durasi": "60 Menit",
+    "target": "Siswa, Orang Tua, Umum",
+    "harga": "Rp100.000",
+    "hargaVal": 100000
+  },
+  {
+    "kode": "ADV-2",
+    "nama": "Private Career & Campus Coaching",
+    "fokus": "Navigasi studi dan kesiapan dunia kerja, selaras dengan Kategori 2 (Akademik & Penjurusan) dan Kategori 3 (Kesiapan Karir).",
+    "durasi": "60 Menit",
+    "target": "Siswa SMA kelas 10-12, gap year, Mahasiswa, Jobseeker",
+    "harga": "Rp250.000",
+    "hargaVal": 250000
+  },
+  {
+    "kode": "ADV-3",
+    "nama": "Parenting & Child Consultation",
+    "fokus": "Mengatasi masalah tumbuh kembang dan pola asuh, selaras dengan Kategori 1 (Anak) dan Kategori 5 (Parenting & Sekolah).",
+    "durasi": "60 Menit",
+    "target": "Orang tua anak usia dini, PAUD, SD, hingga SMA",
+    "harga": "Rp300.000",
+    "hargaVal": 300000
+  },
+  {
+    "kode": "ADV-4",
+    "nama": "Mental Health & Resilience Counseling",
+    "fokus": "Pendampingan resiliensi emosional, selaras dengan Kategori 4 (Kesehatan Mental) serta indikator stres akademik/kerja (KS16 & KD6).",
+    "durasi": "60 Menit",
+    "target": "Siswa tingkat akhir, Mahasiswa, Pekerja rentan burnout",
+    "harga": "Rp250.000",
+    "hargaVal": 250000
+  },
+  {
+    "kode": "ADV-5",
+    "nama": "Leadership & Professional Coaching",
+    "fokus": "Mentoring kepemimpinan korporat dan organisasi, selaras dengan asesmen gaya kepemimpinan (KD4, KU8).",
+    "durasi": "60 Menit",
+    "target": "Calon leader, Supervisor, Pengurus OSIS/BEM",
+    "harga": "Rp350.000",
+    "hargaVal": 350000
+  }
+]
