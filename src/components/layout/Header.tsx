@@ -11,7 +11,7 @@ export const Header: React.FC = () => {
   const PATS_PORTAL_URL = "https://pats.apacaconsulting.com"; 
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-[#0b0f19]/80 backdrop-blur-xl border-b border-white/10">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-[#0b0f19] border-b border-white/10 shadow-xl">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           
@@ -52,42 +52,48 @@ export const Header: React.FC = () => {
                 </svg>
               </button>
 
-              {/* Sub-menu Dropdown */}
+              {/* Sub-menu Dropdown - SOLID BACKGROUND (TIDAK TEMBUS PANDANG) */}
               {isDropdownOpen && (
-                <div className="absolute top-full left-0 w-72 glass-card rounded-2xl p-2.5 border border-white/15 shadow-2xl backdrop-blur-2xl bg-[#0f172a]/95 mt-1 space-y-1">
+                <div className="absolute top-full left-0 w-80 bg-[#0f172a] rounded-2xl p-3 border border-slate-700/80 shadow-2xl shadow-black/80 mt-1 space-y-1 z-50">
                   <Link 
                     href="/produk-layanan/assessment" 
-                    className="block px-3.5 py-2.5 rounded-xl hover:bg-amber-400/10 hover:text-amber-300 transition-all group"
+                    className="block px-4 py-3 rounded-xl hover:bg-amber-400/10 border border-transparent hover:border-amber-400/30 transition-all group"
                   >
-                    <span className="block text-xs font-bold text-slate-200 group-hover:text-amber-300">Assessment & Profiling</span>
-                    <span className="block text-[11px] text-slate-400 font-medium mt-0.5">Tes Diagnostik & Pemetaan</span>
+                    <div className="flex items-center justify-between">
+                      <span className="text-sm font-extrabold text-white group-hover:text-amber-400">Assessment & Profiling</span>
+                      <span className="text-[10px] bg-amber-400/20 text-amber-300 font-bold px-2 py-0.5 rounded-full border border-amber-400/30">Diagnostik</span>
+                    </div>
+                    <span className="block text-xs text-slate-400 font-normal mt-0.5">Tes Diagnostik & Pemetaan Potensi</span>
                   </Link>
 
                   <Link 
                     href="/produk-layanan/certification" 
-                    className="block px-3.5 py-2.5 rounded-xl hover:bg-amber-400/10 hover:text-amber-300 transition-all group"
+                    className="block px-4 py-3 rounded-xl hover:bg-amber-400/10 border border-transparent hover:border-amber-400/30 transition-all group"
                   >
-                    <span className="block text-xs font-bold text-slate-200 group-hover:text-amber-300">Certification</span>
-                    <span className="block text-[11px] text-slate-400 font-medium mt-0.5">Tes Resmi HIMPSI & BNSP</span>
+                    <div className="flex items-center justify-between">
+                      <span className="text-sm font-extrabold text-white group-hover:text-amber-400">Certification</span>
+                      <span className="text-[10px] bg-red-500/20 text-red-400 font-bold px-2 py-0.5 rounded-full border border-red-500/30">Resmi</span>
+                    </div>
+                    <span className="block text-xs text-slate-400 font-normal mt-0.5">Sertifikasi Resmi HIMPSI & BNSP</span>
                   </Link>
 
                   <Link 
                     href="/produk-layanan/advocacy" 
-                    className="block px-3.5 py-2.5 rounded-xl hover:bg-amber-400/10 hover:text-amber-300 transition-all group"
+                    className="block px-4 py-3 rounded-xl hover:bg-amber-400/10 border border-transparent hover:border-amber-400/30 transition-all group"
                   >
-                    <span className="block text-xs font-bold text-slate-200 group-hover:text-amber-300">Advocacy</span>
-                    <span className="block text-[11px] text-slate-400 font-medium mt-0.5">Konsultasi & Coaching</span>
+                    <span className="block text-sm font-extrabold text-white group-hover:text-amber-400">Advocacy & Konsultasi</span>
+                    <span className="block text-xs text-slate-400 font-normal mt-0.5">Coaching & Pendampingan Karir</span>
                   </Link>
 
                   <Link 
                     href="/produk-layanan/audit" 
-                    className="block px-3.5 py-2.5 rounded-xl hover:bg-amber-400/10 hover:text-amber-300 transition-all group"
+                    className="block px-4 py-3 rounded-xl hover:bg-amber-400/10 border border-transparent hover:border-amber-400/30 transition-all group"
                   >
                     <div className="flex items-center justify-between">
-                      <span className="text-xs font-bold text-slate-200 group-hover:text-amber-300">Audit Institusi</span>
-                      <span className="text-[10px] bg-amber-400/20 text-amber-300 border border-amber-400/30 font-bold px-2 py-0.5 rounded-full">Soon</span>
+                      <span className="text-sm font-extrabold text-slate-300 group-hover:text-amber-400">Audit Ekosistem</span>
+                      <span className="text-[10px] bg-slate-800 text-slate-400 border border-slate-700 font-bold px-2 py-0.5 rounded-full">Soon</span>
                     </div>
-                    <span className="block text-[11px] text-slate-400 font-medium mt-0.5">Pemetaan Ekosistem Sekolah</span>
+                    <span className="block text-xs text-slate-400 font-normal mt-0.5">Pemetaan Ekosistem Sekolah</span>
                   </Link>
                 </div>
               )}
@@ -137,11 +143,11 @@ export const Header: React.FC = () => {
 
       {/* Mobile Navigation Drawer */}
       {isMobileMenuOpen && (
-        <div className="lg:hidden glass-card border-t border-white/10 px-4 pt-3 pb-6 space-y-3 bg-[#0b0f19]/95 backdrop-blur-2xl">
+        <div className="lg:hidden bg-[#0f172a] border-t border-slate-800 px-4 pt-3 pb-6 space-y-3">
           <Link href="/" className="block py-2 text-sm font-bold text-slate-200 hover:text-amber-400">Beranda</Link>
           <Link href="/tentang-kami" className="block py-2 text-sm font-bold text-slate-200 hover:text-amber-400">Tentang Kami</Link>
           
-          <div className="py-2 border-y border-white/10 my-2 space-y-1">
+          <div className="py-2 border-y border-slate-800 my-2 space-y-1">
             <span className="block text-xs font-extrabold text-amber-400 uppercase tracking-wider py-1">Produk & Layanan</span>
             <Link href="/produk-layanan/assessment" className="block py-1.5 pl-3 text-xs text-slate-300 hover:text-amber-300 font-medium">• Assessment & Profiling</Link>
             <Link href="/produk-layanan/certification" className="block py-1.5 pl-3 text-xs text-slate-300 hover:text-amber-300 font-medium">• Certification (HIMPSI & BNSP)</Link>
