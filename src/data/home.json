@@ -34,10 +34,10 @@
     "title": "Kredibilitas & Otoritas",
     "subtitle": "Kepercayaan yang dibangun atas standar etika profesional dan kemitraan resmi.",
     "stats": [
-      { "label": "Peserta Tes", "value": "10.000+" },
-      { "label": "Siswa & Klien B2C", "value": "5.000+" },
-      { "label": "Mitra Sekolah & Yayasan", "value": "50+" },
-      { "label": "Psikolog & Asesor Berlisensi", "value": "15+" }
+      { "label": "Peserta Tes", "value": "150+" },
+      { "label": "Siswa & Klien B2C", "value": "100+" },
+      { "label": "Mitra Sekolah & Yayasan", "value": "8+" },
+      { "label": "Psikolog & Asesor Berlisensi", "value": "2+" }
     ],
     "partners": [
       { "name": "HIMPSI", "logo": "/images/partners/himpsi.png" },
