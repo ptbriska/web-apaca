@@ -1,5 +1,4 @@
 import './globals.css';
-import React from 'react';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -13,8 +12,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="id">
-      <body className="bg-slate-100 text-slate-900 antialiased font-sans">
+    <html lang="id" className="scroll-smooth">
+      <body className="bg-[#0b0f19] text-slate-100 antialiased selection:bg-amber-500 selection:text-slate-950">
         {children}
       </body>
     </html>
