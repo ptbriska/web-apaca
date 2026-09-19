@@ -1,0 +1,132 @@
+{
+  "b2c": [
+    {
+      "kode": "BND-01",
+      "nama": "Peta Belajar & Karir Masa Depan",
+      "target": "Siswa SMA/SMK, Mahasiswa, Fresh Graduate",
+      "komposisi": ["KS3: Asesmen Keselarasan Jurusan Kuliah", "KD1: Pemetaan Proyeksi Karir Masa Depan", "KD2: Inventori Nilai & Prinsip Kerja", "ADV-1: Bedah Rapor PATS 1-on-1"],
+      "hargaNormal": "Rp450.000",
+      "hargaBundling": "Rp150.000",
+      "isPopular": true,
+      "badge": "Terlaris"
+    },
+    {
+      "kode": "BND-02",
+      "nama": "Tumbuh Kembang & Harmoni Keluarga",
+      "target": "Orang Tua (Anak TK, PAUD, SD Kelas 1–6)",
+      "komposisi": ["KA1: Asesmen Psikologi Kesiapan Masuk SD", "KA2: Tes Psikologi IQ & Kecerdasan Anak", "KK2: Pemetaan Pola Asuh Orang Tua", "ADV-3: Parenting & Child Consultation"],
+      "hargaNormal": "Rp825.000",
+      "hargaBundling": "Rp549.000"
+    },
+    {
+      "kode": "BND-03",
+      "nama": "Kesiapan Mental & Daya Juang Remaja",
+      "target": "Remaja (SMP/SMA), Mahasiswa, Calon Rantau",
+      "komposisi": ["KS16: Survei Tingkat Kejenuhan & Stres Akademik", "KU1: Asesmen Daya Juang & Pola Pikir", "KS4: Indeks Kesiapan Studi Mandiri & Rantau", "ADV-4: Mental Health & Resilience Counseling"],
+      "hargaNormal": "Rp490.000",
+      "hargaBundling": "Rp329.000"
+    },
+    {
+      "kode": "BND-04",
+      "nama": "Deteksi Dini & Strategi Belajar Anak",
+      "target": "Orang Tua & Siswa SD/SMP",
+      "komposisi": ["KA3: Skrining Klinis & Hambatan Belajar", "KS5: Asesmen Modalitas Gaya Belajar", "KU3: Asesmen Etika & Perilaku Digital", "ADV-3: Parenting & Child Consultation"],
+      "hargaNormal": "Rp625.000",
+      "hargaBundling": "Rp429.000"
+    },
+    {
+      "kode": "BND-05",
+      "nama": "Calon Pemimpin & Student Leader",
+      "target": "Tim/Kandidat OSIS & Ekstrakurikuler (3–7 Orang)",
+      "komposisi": ["Asesmen Individu: KU8, KS8, KS2", "Sesi Kolektif: ADV-5 (Leadership Coaching)"],
+      "hargaNormal": "Variabel",
+      "hargaBundling": "Mulai Rp1.300.000",
+      "catatanKhusus": "Rumus: (Jumlah Siswa × Rp350.000) + Rp250.000. (Contoh: 3 Siswa = Rp1.300.000, 5 Siswa = Rp2.000.000, 7 Siswa = Rp2.700.000)"
+    },
+    {
+      "kode": "BND-06",
+      "nama": "Optimalisasi & Peretasan Cara Belajar",
+      "target": "Siswa SMP/SMA, Mahasiswa",
+      "komposisi": ["9 Tes: KS5, KS6, KS9, KS10, KS11, KS12, KS13, KS14, KS15", "ADV-1: Bedah Rapor PATS 1-on-1"],
+      "hargaNormal": "Rp775.000",
+      "hargaBundling": "Rp499.000",
+      "isPopular": true,
+      "badge": "Paling Lengkap"
+    },
+    {
+      "kode": "BND-07",
+      "nama": "Kesiapan Dunia Kerja & Rekrutmen",
+      "target": "Wisudawan, BKK SMK, Perusahaan, Fresh Graduate",
+      "komposisi": ["KD3: Potensi Komprehensif", "KD5: Ketahanan Kerja (Kraepelin)", "KU2: Integritas", "ADV-2: Private Coaching / Webinar Massal"],
+      "hargaNormal": "Rp625.000 (Ritel)",
+      "hargaBundling": "Rp449.000",
+      "catatanKhusus": "Opsi B2B/Massal (Min. 20 Peserta): Rp225.000 – Rp275.000/peserta (termasuk Webinar Career Preparation)."
+    },
+    {
+      "kode": "BND-08",
+      "nama": "Self-Discovery & Karakter Ekstensif",
+      "target": "Individu Umum, Mahasiswa, Pekerja",
+      "komposisi": ["KU5: MBTI (Gratis) & DISC", "KU6: Enneagram", "KU7: Big Five/OCEAN", "ADV-1: Bedah Rapor PATS 1-on-1"],
+      "hargaNormal": "Rp175.000",
+      "hargaBundling": "Rp125.000"
+    },
+    {
+      "kode": "BND-09",
+      "nama": "Pendidik Tangguh & Edukasi Efektif",
+      "target": "Guru, Dosen, Tenaga Pendidik, Tentor",
+      "komposisi": ["KK1: Inventori Gaya Mengajar", "KS9: Kesesuaian Metodologi (LAM)", "KD6: Survei Stres", "ADV-1: Bedah Rapor 1-on-1"],
+      "hargaNormal": "Rp300.000",
+      "hargaBundling": "Rp175.000"
+    },
+    {
+      "kode": "BND-10",
+      "nama": "Olimpiade & Talenta Analitis Spesifik",
+      "target": "Siswa Kelas Unggulan & Peserta OSN",
+      "komposisi": ["KS1: Minat Bakat OSN", "KS7: Bakat Analitis (Gratis)", "KS12: Operasi Kognitif (LCPI)", "ADV-1: Bedah Rapor 1-on-1"],
+      "hargaNormal": "Rp295.000",
+      "hargaBundling": "Rp175.000"
+    }
+  ],
+  "b2b": [
+    {
+      "kode": "B2B-01",
+      "nama": "PATS Bulk - Seleksi Talenta OSN",
+      "target": "SMP/SMA Unggulan",
+      "komposisi": ["KS1 & KS7 (Fokus OSN)", "Laporan Pemeringkatan Kolektif"],
+      "harga": "Rp75.000 – Rp100.000 / peserta",
+      "hargaNormal": "Rp120.000"
+    },
+    {
+      "kode": "B2B-02",
+      "nama": "PATS Bulk - Ekstensif Learning Profile",
+      "target": "SMP/SMA/Bimbel",
+      "komposisi": ["8 Subtes: KS5, KS9, KS10, KS11, KS12, KS13, KS14, KS15", "Laporan Kolektif & Individual"],
+      "harga": "Rp250.000 – Rp300.000 / peserta",
+      "hargaNormal": "Rp600.000",
+      "isPopular": true,
+      "badge": "Best for School"
+    },
+    {
+      "kode": "B2B-03",
+      "nama": "Kompleks Ekosistem Sekolah",
+      "target": "Boarding School / Yayasan",
+      "komposisi": ["PATS Siswa Pilihan", "KK1 (Guru)", "KK2 (Ortu)", "1 Sesi Seminar Pleno"],
+      "harga": "Rp175.000 – Rp200.000 / peserta",
+      "catatanKhusus": "Asesmen guru dan orang tua sebagai komplimen."
+    },
+    {
+      "kode": "B2B-04",
+      "nama": "Seleksi & Rekrutmen Korporat",
+      "target": "HR Perusahaan / Pabrik",
+      "komposisi": ["KD3, KD4, KD5 (Asesmen Dewasa)", "Dashboard Laporan HR"],
+      "harga": "Rp150.000 – Rp250.000 / kandidat"
+    },
+    {
+      "kode": "B2B-05",
+      "nama": "Kesiapan Karir SMK & Kampus",
+      "target": "BKK SMK / Career Center",
+      "komposisi": ["KD1, KD2, KU2 (Orientasi & Integritas)", "Laporan Profil Lulusan"],
+      "harga": "Rp100.000 – Rp135.000 / peserta"
+    }
+  ]
+}
