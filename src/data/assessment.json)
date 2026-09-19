@@ -1,0 +1,43 @@
+[
+  { "kode": "KA1", "kategori": "Anak & Tumbuh Kembang", "nama": "Asesmen Psikologi Kesiapan Masuk SD", "harga": "Rp200.000", "tujuan": "Memetakan kesiapan fisik, emosi, dan kognitif anak secara psikologis sebelum memasuki jenjang SD." },
+  { "kode": "KA2", "kategori": "Anak & Tumbuh Kembang", "nama": "Tes Psikologi IQ & Kecerdasan Anak", "harga": "Rp250.000", "tujuan": "Mendiagnosis tingkat kecerdasan kognitif bawaan, struktur IQ, serta kelebihan & kelemahan otak anak." },
+  { "kode": "KA3", "kategori": "Anak & Tumbuh Kembang", "nama": "Skrining Klinis & Hambatan Belajar", "harga": "Rp200.000", "tujuan": "Mendeteksi secara dini indikasi klinis hambatan belajar seperti disleksia, disgrafia, & diskalkulia." },
+  { "kode": "KA4", "kategori": "Anak & Tumbuh Kembang", "nama": "Skrining Perkembangan Sensori & Motorik", "harga": "Rp150.000", "tujuan": "Mengukur keseimbangan motorik halus-kasar serta pengolahan sensori anak untuk mendukung proses belajar." },
+  
+  { "kode": "KS1", "kategori": "Siswa & Akademik", "nama": "Pemetaan Minat & Bakat Potensial Analitis Bidang OSN", "harga": "Rp120.000", "tujuan": "Menemukan kecocokan antara minat kepribadian dengan orientasi bidang Pilihan OSN SMA." },
+  { "kode": "KS2", "kategori": "Siswa & Akademik", "nama": "Asesmen Potensi Komprehensif & Inteligensi", "harga": "Rp250.000", "tujuan": "Mengukur inteligensi komprehensif (IQ, EQ, CQ, AQ) untuk memetakan kapasitas akademik maksimal siswa." },
+  { "kode": "KS3", "kategori": "Siswa & Akademik", "nama": "Asesmen Keselarasan Jurusan Kuliah", "harga": "Rp150.000", "tujuan": "Memberikan rekomendasi jurusan kuliah yang paling selaras dengan kapasitas kognitif & minat bakat." },
+  { "kode": "KS4", "kategori": "Siswa & Akademik", "nama": "Indeks Kesiapan Studi Mandiri & Rantau", "harga": "Rp90.000", "tujuan": "Mengukur kemandirian emosional, adaptabilitas budaya, & ketahanan mental siswa." },
+  { "kode": "KS5", "kategori": "Siswa & Akademik", "nama": "Asesmen Modalitas Gaya Belajar (LSP)", "harga": "Rp75.000", "tujuan": "Mengidentifikasi preferensi sensori dasar & gaya kognitif awal dalam menyerap materi." },
+  { "kode": "KS6", "kategori": "Siswa & Akademik", "nama": "Pemetaan 8 Pola Kecerdasan Majemuk", "harga": "Rp75.000", "tujuan": "Memetakan 8 domain kecerdasan Multiple Intelligences." },
+  { "kode": "KS7", "kategori": "Siswa & Akademik", "nama": "Pemetaan Bakat Analitis OSN", "harga": "Gratis", "tujuan": "Menguji kapasitas penalaran matriks & logika abstrak tingkat tinggi untuk seleksi siswa berprestasi." },
+  { "kode": "KS8", "kategori": "Siswa & Akademik", "nama": "Tes Penalaran Kritis & Logika Analitis", "harga": "Rp100.000", "tujuan": "Menguji ketajaman logika berpikir, evaluasi argumen, dan penarikan kesimpulan secara objektif." },
+  { "kode": "KS9", "kategori": "Siswa & Akademik", "nama": "Asesmen Kesesuaian Metodologi & Struktur Pengajaran (LAM)", "harga": "Rp75.000", "tujuan": "Mengukur kesesuaian metodologi makro & tingkat struktur pengajaran ideal bagi siswa." },
+  { "kode": "KS10", "kategori": "Siswa & Akademik", "nama": "Asesmen Efektivitas Teknik Belajar Taktis (LTE)", "harga": "Rp75.000", "tujuan": "Memetakan repertoar & efektivitas tindakan belajar taktis." },
+  { "kode": "KS11", "kategori": "Siswa & Akademik", "nama": "Asesmen Kapasitas Self-Regulated Learning (LSI)", "harga": "Rp75.000", "tujuan": "Mengukur kapasitas regulasi belajar mandiri." },
+  { "kode": "KS12", "kategori": "Siswa & Akademik", "nama": "Pemetaan Operasi Kognitif Saat Belajar (LCPI)", "harga": "Rp75.000", "tujuan": "Memetakan dinamika & operasi mental saat memproses materi." },
+  { "kode": "KS13", "kategori": "Siswa & Akademik", "nama": "Pemetaan Motivasi, Efikasi Diri & Emosi Belajar (LAMP)", "harga": "Rp75.000", "tujuan": "Mengidentifikasi 6 pendorong motivasi spesifik, efikasi diri, dan tingkat grit siswa." },
+  { "kode": "KS14", "kategori": "Siswa & Akademik", "nama": "Pemetaan Kondisi Lingkungan Belajar Optimal (LEI)", "harga": "Rp75.000", "tujuan": "Memetakan kondisi ekosistem eksternal yang memicu fokus & produktivitas puncak." },
+  { "kode": "KS15", "kategori": "Siswa & Akademik", "nama": "Pemetaan Hirarki Preferensi Format Materi (LRP)", "harga": "Rp75.000", "tujuan": "Menyusun hirarki preferensi terhadap media, instrumen, dan format materi belajar." },
+  { "kode": "KS16", "kategori": "Siswa & Akademik", "nama": "Survei Tingkat Kejenuhan & Stres Akademik", "harga": "Rp75.000", "tujuan": "Mengukur tingkat stres emosional, kecemasan akademik, dan tingkat kejenuhan." },
+  
+  { "kode": "KD1", "kategori": "Dewasa & Karir", "nama": "Pemetaan Proyeksi Karir Masa Depan", "harga": "Rp125.000", "tujuan": "Memetakan jalur karir yang paling relevan dengan potensi kepribadian, minat, & kualifikasi profesional." },
+  { "kode": "KD2", "kategori": "Dewasa & Karir", "nama": "Inventori Nilai & Prinsip Kerja", "harga": "Rp75.000", "tujuan": "Mengidentifikasi motivasi internal & nilai prioritas dalam bekerja." },
+  { "kode": "KD3", "kategori": "Dewasa & Karir", "nama": "Asesmen Potensi Komprehensif & Inteligensi", "harga": "Rp250.000", "tujuan": "Mengukur potensi daya pikir komprehensif, penalaran logis, serta kematangan emosi untuk seleksi kerja." },
+  { "kode": "KD4", "kategori": "Dewasa & Karir", "nama": "Asesmen Gaya Kepemimpinan di Korporat", "harga": "Rp150.000", "tujuan": "Memetakan gaya manajerial, delegasi tugas, serta kemampuan memimpin tim dalam lingkungan korporasi." },
+  { "kode": "KD5", "kategori": "Dewasa & Karir", "nama": "Tes Ketahanan & Ketelitian Kerja (Kraepelin/Pauli)", "harga": "Rp75.000", "tujuan": "Menguji ketelitian, kecepatan, daya tahan kerja (endurance), dan stabilitas emosi di bawah tekanan." },
+  { "kode": "KD6", "kategori": "Dewasa & Karir", "nama": "Survei Tingkat Kejenuhan & Stres", "harga": "Rp75.000", "tujuan": "Mengukur tingkat stres emosional, kecemasan stres kerja, dan tingkat kejenuhan." },
+  
+  { "kode": "KU1", "kategori": "Umum & Kepribadian", "nama": "Asesmen Daya Juang & Pola Pikir", "harga": "Rp75.000", "tujuan": "Mengukur tingkat daya tahan pantang menyerah (Grit) dan keterbukaan pola pikir (Growth Mindset)." },
+  { "kode": "KU2", "kategori": "Umum & Kepribadian", "nama": "Tes Integritas & Etika", "harga": "Rp50.000", "tujuan": "Memprediksi tingkat kejujuran, kepatuhan aturan, serta risiko perilaku kontra-produktif." },
+  { "kode": "KU3", "kategori": "Umum & Kepribadian", "nama": "Asesmen Etika & Perilaku Digital", "harga": "Rp50.000", "tujuan": "Mengukur etika berkomunikasi digital, kesadaran privasi data, serta jejak perilaku di dunia maya." },
+  { "kode": "KU4", "kategori": "Umum & Kepribadian", "nama": "Pemetaan Preferensi Tipe Kepribadian MBTI", "harga": "Gratis", "tujuan": "Memetakan 16 tipe kepribadian MBTI untuk pemahaman cara berpikir dan berinteraksi." },
+  { "kode": "KU5", "kategori": "Umum & Kepribadian", "nama": "Pemetaan Profil Perilaku & Gaya Komunikasi DISC", "harga": "Rp25.000", "tujuan": "Mengidentifikasi kecenderungan gaya perilaku (DISC) dan gaya komunikasi." },
+  { "kode": "KU6", "kategori": "Umum & Kepribadian", "nama": "Pemetaan 9 Tipe Kepribadian & Motivasi Dasar Enneagram", "harga": "Rp25.000", "tujuan": "Mengungkap motivasi mendalam, ketakutan utama melalui 9 tipe Enneagram." },
+  { "kode": "KU7", "kategori": "Umum & Kepribadian", "nama": "Asesmen Lima Faktor Utama Trait Kepribadian (OCEAN)", "harga": "Rp25.000", "tujuan": "Mengukur 5 dimensi utama kepribadian secara ilmiah." },
+  { "kode": "KU8", "kategori": "Umum & Kepribadian", "nama": "Asesmen Kepemimpinan & Soft Skills", "harga": "Rp100.000", "tujuan": "Memetakan dinamika hubungan interpersonal, soft skills, dan efektivitas komunikasi dalam tim." },
+  { "kode": "KU9", "kategori": "Umum & Kepribadian", "nama": "Tes Pengambilan Keputusan", "harga": "Rp125.000", "tujuan": "Menguji kualitas pengambilan keputusan, penentuan skala prioritas, & solusi krisis." },
+  
+  { "kode": "KK1", "kategori": "Ekosistem Pendidikan", "nama": "Inventori Gaya Mengajar Pendidik", "harga": "Rp50.000", "tujuan": "Memetakan pendekatan & gaya mengajar guru untuk meningkatkan efektivitas penyampaian materi." },
+  { "kode": "KK2", "kategori": "Ekosistem Pendidikan", "nama": "Pemetaan Pola Asuh Orang Tua", "harga": "Rp75.000", "tujuan": "Mengidentifikasi kecenderungan pola asuh orang tua & dampaknya ke anak." }
+]
