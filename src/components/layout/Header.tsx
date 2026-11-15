@@ -120,7 +120,7 @@ export const Header: React.FC = () => {
                 rel="noopener noreferrer"
                 className="btn-sweep px-5 py-2.5 rounded-xl bg-red-600 hover:bg-red-500 text-white font-extrabold text-xs tracking-wide shadow-lg shadow-red-600/25 border border-red-500/50 transition-all flex items-center gap-2"
               >
-                <span>🔑</span> Login Portal PATS
+                <span>🔑</span> Pendaftaran & Portal Tes PATS
               </a>
             </div>
 
