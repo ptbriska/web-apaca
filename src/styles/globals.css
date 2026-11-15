@@ -103,3 +103,27 @@ input, select, textarea {
 .animate-blob {
   animation: floatBlob 8s ease-in-out infinite;
 }
+
+/* ==========================================================================
+   FIX DROPDOWN HOVER GAP (MENCEGAH SUB-MENU HILANG SAAT DI-HOVER)
+   ========================================================================== */
+.dropdown-wrapper {
+  position: relative;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  /* Membuat jembatan transparan tak kasat mata ke atas sejauh celah */
+}
+
+.dropdown-menu::before {
+  content: '';
+  position: absolute;
+  top: -20px; /* Menutupi jarak gap di atas dropdown */
+  left: 0;
+  width: 100%;
+  height: 20px;
+  background: transparent;
+}
