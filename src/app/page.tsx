@@ -15,8 +15,8 @@ export default function HomePage() {
     ? titleText.split("Potensi, Karir") 
     : [titleText, ""];
 
+  // Mengubah background utama menjadi merah tua (dark red)
   return (
-    {/* Mengubah background utama menjadi merah tua (dark red) */}
     <div className="min-h-screen bg-[#2a0404] text-slate-100 flex flex-col font-sans selection:bg-amber-500 selection:text-slate-950">
       <Header />
 
