@@ -56,7 +56,7 @@ export const Header: React.FC = () => {
 
                 {/* Sub-menu Dropdown */}
                 {isDropdownOpen && (
-                  <div className="absolute top-full left-0 w-80 bg-[#0f172a] rounded-2xl p-3 border border-slate-700/80 shadow-2xl shadow-black/80 mt-1 space-y-1 z-50">
+                  <div className="absolute top-full left-0 w-80 bg-[#0f172a] rounded-2xl p-3 border border-slate-700/80 shadow-2xl shadow-black/80 mt-2 space-y-1 z-50 before:absolute before:content-[''] before:-top-4 before:left-0 before:w-full before:h-4">
                     <Link 
                       href="/produk-layanan/assessment" 
                       className="block px-4 py-3 rounded-xl hover:bg-amber-400/10 border border-transparent hover:border-amber-400/30 transition-all group"
