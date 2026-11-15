@@ -2,8 +2,8 @@
   "hero": {
     "title": "Peta Akurat untuk Potensi, Karir, dan Ekosistem Sekolah Anda.",
     "subtitle": "Pusat Asesmen, Profiling, Sertifikasi, dan Konsultasi Pendidikan Terintegrasi. Mengubah data potensi menjadi bukti dan aksi nyata.",
-    "ctaPrimary": "Eksplorasi Paket Kami",
-    "ctaSecondary": "Login Portal PATS",
+    "ctaPrimary": "Eksplorasi Paket Bundling Kami",
+    "ctaSecondary": "Pendaftaran & Tes PATS",
     "patsUrl": "https://pats.apacaconsulting.com"
   },
   "journey": {
@@ -13,35 +13,35 @@
       {
         "step": "01",
         "title": "Assessment & Profiling",
-        "desc": "Tes diagnostik awal dan pemetaan potensi/bakat melalui platform PATS atau tes klinis langsung.",
+        "desc": "Tes diagnostik awal dan pemetaan potensi/bakat melalui platform PATS atau tes langsung.",
         "icon": "search"
       },
       {
         "step": "02",
         "title": "Advocacy",
-        "desc": "Sesi konsultasi & coaching bersama psikolog (ber-SIPP) dan konsultan untuk membedah hasil tes.",
+        "desc": "Sesi konsultasi & coaching bersama tim asesor dan konsultan profesional untuk membedah hasil tes.",
         "icon": "users"
       },
       {
         "step": "03",
         "title": "Certification",
-        "desc": "Uji kompetensi & sertifikasi resmi yang diakui secara nasional di bawah naungan HIMPSI dan BNSP.",
+        "desc": "Uji kompetensi & sertifikasi resmi yang diakui secara nasional di bawah naungan lembaga terkait.",
         "icon": "award"
       }
     ]
   },
   "credibility": {
     "title": "Kredibilitas & Otoritas",
-    "subtitle": "Kepercayaan yang dibangun atas standar etika profesional dan kemitraan resmi.",
+    "subtitle": "Kepercayaan yang dibangun atas standar etika profesional dan kualitas layanan.",
     "stats": [
-      { "label": "Peserta Tes", "value": "150+" },
-      { "label": "Siswa & Klien B2C", "value": "100+" },
-      { "label": "Mitra Sekolah & Yayasan", "value": "8+" },
-      ],
-    "_hiddenStats": [
-      { "label": "Psikolog & Asesor Berlisensi", "value": "2+" }
+      { "label": "Siswa & Mahasiswa", "value": "100+" },
+      { "label": "Peserta Dewasa", "value": "50+" },
+      { "label": "Mitra Sekolah & Yayasan", "value": "2+" }
     ],
-    "partners": [
+    "_hiddenStats": [
+      { "label": "Tim Asesor Berlisensi", "value": "2+" }
+    ],
+    "_hiddenPartners": [
       { "name": "HIMPSI", "logo": "/images/partners/himpsi.png" },
       { "name": "BNSP", "logo": "/images/partners/bnsp.png" }
     ]
@@ -49,21 +49,21 @@
   "testimonials": [
     {
       "id": "1",
-      "name": "Bapak Rahmad, M.Pd.",
-      "role": "Kepala Sekolah SMA / Mitra B2B",
-      "quote": "Pemetaan ekosistem sekolah dari APACA memberikan data obyektif untuk evaluasi kurikulum dan pengembangan guru kami."
+      "name": "Alya Nurul Hidayah",
+      "role": "Siswa Kelas 12 SMAN 1 Makassar",
+      "quote": "Awalnya sempat bingung banget mau ambil jurusan apa pas mau kuliah. Lewat asesmen PATS APACA, jadi tahu potensi diri dan lebih mantap nentuin pilihan."
     },
     {
       "id": "2",
-      "name": "Ibu Sarah",
-      "role": "Orang Tua Siswa",
-      "quote": "Sesi Advocacy dan konsultasi psikolognya sangat membantu kami memahami minat dan jurusan kuliah yang tepat untuk anak."
+      "name": "Muhammad Farhan",
+      "role": "Mahasiswa Universitas Hasanuddin (Unhas)",
+      "quote": "Sertifikasi dan sesi coaching karirnya ngebantu banget buat nambah nilai plus di CV sebelum lulus kuliah. Penjelasannya detail dan aplikatif banget."
     },
     {
       "id": "3",
-      "name": "Andi Pratama",
-      "role": "Fresh Graduate",
-      "quote": "Sertifikasi dan pemetaan karir APACA memberi landasan bukti kuat saat saya melamar pekerjaan profesional."
+      "name": "Resky Amalia",
+      "role": "Mahasiswa Universitas Negeri Makassar (UNM)",
+      "quote": "Konsultasi langsung dengan tim konsultan APACA bikin aku lebih paham kelebihan diri, jadi nggak salah langkah pas mulai cari jalur karir di Makassar."
     }
   ]
 }
