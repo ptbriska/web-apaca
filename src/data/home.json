@@ -37,6 +37,8 @@
       { "label": "Peserta Tes", "value": "150+" },
       { "label": "Siswa & Klien B2C", "value": "100+" },
       { "label": "Mitra Sekolah & Yayasan", "value": "8+" },
+      ],
+    "_hiddenStats": [
       { "label": "Psikolog & Asesor Berlisensi", "value": "2+" }
     ],
     "partners": [
