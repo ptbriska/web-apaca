@@ -142,22 +142,24 @@ export default function HomePage() {
               ))}
             </div>
 
-            {/* Afiliasi Mitra */}
-            <div className="text-center">
-              <span className="text-xs font-extrabold uppercase tracking-widest text-amber-400/80 block mb-8">
-                Terafiliasi & Berstandar Resmi
-              </span>
-              <div className="flex flex-wrap items-center justify-center gap-6">
-                {credibility.partners.map((partner, idx) => (
-                  <div 
-                    key={idx} 
-                    className="px-8 py-4 glass-card rounded-xl font-extrabold text-slate-200 border border-white/10 hover:border-amber-400/50 hover:text-amber-300 transition-all shadow-md"
-                  >
-                    {partner.name}
-                  </div>
-                ))}
+            {/* Afiliasi Mitra (Akan disembunyikan otomatis jika data 'partners' tidak aktif di JSON) */}
+            {credibility.partners && credibility.partners.length > 0 && (
+              <div className="text-center">
+                <span className="text-xs font-extrabold uppercase tracking-widest text-amber-400/80 block mb-8">
+                  Terafiliasi & Berstandar Resmi
+                </span>
+                <div className="flex flex-wrap items-center justify-center gap-6">
+                  {credibility.partners.map((partner: any, idx: number) => (
+                    <div 
+                      key={idx} 
+                      className="px-8 py-4 glass-card rounded-xl font-extrabold text-slate-200 border border-white/10 hover:border-amber-400/50 hover:text-amber-300 transition-all shadow-md"
+                    >
+                      {partner.name}
+                    </div>
+                  ))}
+                </div>
               </div>
-            </div>
+            )}
 
           </div>
         </section>
