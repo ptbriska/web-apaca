@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&display=swap');
+@import url('[https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&display=swap](https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&display=swap)');
 
 @tailwind base;
 @tailwind components;
@@ -17,7 +17,6 @@ html {
   color: #f8fafc;
 }
 
-/* KUNCI BODY AGAR TIDAK BISA BERUBAH TERANG */
 body {
   background-color: #2a0404 !important;
   color: #f8fafc !important;
@@ -26,16 +25,10 @@ body {
   min-height: 100vh;
 }
 
-/* FIX WARNA TEKS UNTUK FORM/INPUT AGAR TIDAK MATI WARNA */
 input, select, textarea {
   color: #2a0404;
 }
 
-/* ==========================================================================
-   EFEK VISUAL MODERN & ANIMASI CUSTOM APACA
-   ========================================================================== */
-
-/* 1. ANIMASI BACKGROUND GRADIENT BERGERAK (TEMA MERAH TUA) */
 @keyframes gradientShift {
   0% { background-position: 0% 50%; }
   50% { background-position: 100% 50%; }
@@ -48,7 +41,6 @@ input, select, textarea {
   animation: gradientShift 12s ease infinite;
 }
 
-/* 2. EFEK SWEEP KILATAN LIGHT PADA TOMBOL & KARTU */
 @keyframes sweepLight {
   0% { left: -120%; }
   30% { left: 180%; }
@@ -78,9 +70,8 @@ input, select, textarea {
   pointer-events: none;
 }
 
-/* 3. GLASSMORPHISM (KARTU KACA PEKAT + GLOW KONTRAS TINGGI TEMA MERAH) */
 .glass-card {
-  background: rgba(42, 4, 4, 0.85); /* Dark red background with opacity */
+  background: rgba(42, 4, 4, 0.85);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
   border: 1px solid rgba(255, 255, 255, 0.1);
@@ -94,7 +85,6 @@ input, select, textarea {
   box-shadow: 0 20px 40px rgba(234, 179, 8, 0.15);
 }
 
-/* 4. AMBIENT GLOWING BLOBS BERGERAK */
 @keyframes floatBlob {
   0%, 100% { transform: translate(0px, 0px) scale(1); }
   50% { transform: translate(30px, -40px) scale(1.1); }
@@ -104,9 +94,6 @@ input, select, textarea {
   animation: floatBlob 8s ease-in-out infinite;
 }
 
-/* ==========================================================================
-   FIX DROPDOWN HOVER GAP (MENCEGAH SUB-MENU HILANG SAAT DI-HOVER)
-   ========================================================================== */
 .dropdown-wrapper {
   position: relative;
 }
@@ -115,13 +102,12 @@ input, select, textarea {
   position: absolute;
   top: 100%;
   left: 0;
-  /* Membuat jembatan transparan tak kasat mata ke atas sejauh celah */
 }
 
 .dropdown-menu::before {
   content: '';
   position: absolute;
-  top: -20px; /* Menutupi jarak gap di atas dropdown */
+  top: -20px;
   left: 0;
   width: 100%;
   height: 20px;
