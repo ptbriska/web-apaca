@@ -16,7 +16,8 @@ export default function HomePage() {
     : [titleText, ""];
 
   return (
-    <div className="min-h-screen bg-[#0b0f19] text-slate-100 flex flex-col font-sans selection:bg-amber-500 selection:text-slate-950">
+    {/* Mengubah background utama menjadi merah tua (dark red) */}
+    <div className="min-h-screen bg-[#2a0404] text-slate-100 flex flex-col font-sans selection:bg-amber-500 selection:text-slate-950">
       <Header />
 
       <main className="flex-grow">
@@ -81,7 +82,8 @@ export default function HomePage() {
         </section>
 
         {/* 2. THE APACA JOURNEY (INFOGRAFIS ALUR LAYANAN) */}
-        <section className="py-24 bg-[#090d16] relative border-b border-white/5">
+        {/* Mengubah background menjadi kombinasi merah yang lebih gelap */}
+        <section className="py-24 bg-[#1f0303] relative border-b border-white/5">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             
             <div className="text-center mb-16">
@@ -116,7 +118,7 @@ export default function HomePage() {
         </section>
 
         {/* 3. KREDIBILITAS & OTORITAS (ANGKA & MITRA) */}
-        <section className="py-24 bg-[#0b0f19] relative border-b border-white/5">
+        <section className="py-24 bg-[#2a0404] relative border-b border-white/5">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             
             <div className="text-center max-w-3xl mx-auto mb-16">
@@ -128,10 +130,10 @@ export default function HomePage() {
               </p>
             </div>
 
-            {/* Grid Angka Pencapaian */}
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-16 text-center">
+            {/* Grid Angka Pencapaian - Menggunakan Flex agar otomatis rata tengah berapapun jumlah datanya */}
+            <div className="flex flex-wrap justify-center gap-6 mb-16 text-center">
               {credibility.stats.map((stat, idx) => (
-                <div key={idx} className="glass-card p-6 rounded-2xl border border-white/10">
+                <div key={idx} className="glass-card p-6 rounded-2xl border border-white/10 w-[150px] sm:w-[220px]">
                   <span className="block text-4xl sm:text-5xl font-black text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-amber-400 mb-2">
                     {stat.value}
                   </span>
@@ -142,7 +144,7 @@ export default function HomePage() {
               ))}
             </div>
 
-            {/* Afiliasi Mitra (Akan disembunyikan otomatis jika data 'partners' tidak aktif di JSON) */}
+            {/* Afiliasi Mitra (Akan disembunyikan otomatis jika data 'partners' tidak aktif di JSON, dengan penanganan TypeScript aman) */}
             {(credibility as any).partners && (credibility as any).partners.length > 0 && (
               <div className="text-center">
                 <span className="text-xs font-extrabold uppercase tracking-widest text-amber-400/80 block mb-8">
@@ -165,7 +167,7 @@ export default function HomePage() {
         </section>
 
         {/* 4. TESTIMONI */}
-        <section className="py-24 bg-[#090d16] relative">
+        <section className="py-24 bg-[#1f0303] relative">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             
             <div className="text-center max-w-3xl mx-auto mb-16">
